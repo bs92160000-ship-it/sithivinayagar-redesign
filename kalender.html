@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalender — Sithi Vinayagar Temple</title>
-<meta name="description" content="Kommende poojaer og arrangementer hos 7fjell Sri Ananda Sithi Vinayagar Temple i Bergen. Se datoer, tider og upayam for juli måned.">
+<meta name="description" content="Kommende poojaer og arrangementer hos 7fjell Sri Ananda Sithi Vinayagar Temple i Bergen. Se datoer, tider og upayam for september måned.">
 <meta name="theme-color" content="#2e3358">
 <link rel="icon" href="assets/favicon-32.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/logo-256.png">
@@ -58,8 +58,8 @@
 
 <section class="section">
   <div class="wrap">
-    <span class="eyebrow reveal">Juli måned</span>
-    <h2 class="section-title reveal" style="margin-bottom:.6em">Poojaer som skjer i juli</h2>
+    <span class="eyebrow reveal">September måned</span>
+    <h2 class="section-title reveal" style="margin-bottom:.6em">Poojaer som skjer i september</h2>
     <div class="event-list" id="event-list-full"></div>
   </div>
 </section>
@@ -100,16 +100,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script>
 window.POOJAS = [
-  { day:'03', mon:'JUL', wd:'Fredag', title:'Sangadahara Sathurthi', up:'kr. 600 / 750',
-    details:'Sangalpam 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00 og avsluttes med at Lord Ganesha bæres rundt inne i templet.' },
-  { day:'10', mon:'JUL', wd:'Fredag', title:'Karthikai', up:'kr. 600 / 750',
-    details:'Sangalpam 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.30 og avsluttes med at Lord Muruga bæres rundt inne i templet.' },
-  { day:'16', mon:'JUL', wd:'Torsdag', title:'Aadipirappu', up:'',
-    details:'Spesiell grøt serveres i templet i dag. Aadi Pirappu er første dag i måneden Aadi — monsun-festivalen — feiret på den første dagen i den tamilske måneden «Adi» (midt-juli til midt-august). Festivalen hyller vannets livgivende egenskaper.' },
-  { day:'17', mon:'JUL', wd:'Fredag', title:'Sathurthi', up:'kr. 600 / 750',
-    details:'Sangalpam 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00 og avsluttes med at Lord Ganesha bæres rundt inne i templet.' },
-  { day:'28', mon:'JUL', wd:'Tirsdag', title:'Pournami', up:'kr. 600 / 750',
-    details:'Sangalpam 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.30 og avsluttes med at Goddess Durga bæres rundt inne i templet.' }
+  { day:'03', mon:'SEP', wd:'Torsdag', title:'Karthikai og Sri Krishna Jayanthi', up:'kr. 600 / 750',
+    details:'Sangalpam kl. 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00 og avsluttes med at Lord Muruga bæres rundt inne i templet.' },
+  { day:'13', mon:'SEP', wd:'Søndag', title:'Kumbabisheka Day (Årsdag)', up:'kr. 2000',
+    details:'Sangalpam kl. 09.45, etterfulgt av ashtorhra sangabishekam. Middagspuja starter kl. 12.00. Kveldspuja starter kl. 19.00 og avsluttes med at Lord Ganesha bæres rundt inne i templet etter kveldspujaen.' },
+  { day:'14', mon:'SEP', wd:'Mandag', title:'Vinayaga Sathurthi Viratham', up:'kr. 2000',
+    details:'Sangalpam kl. 09.45, etterfulgt av ashtorhra sangabishekam. Middagspuja starter kl. 12.00. Kveldspuja starter kl. 19.00 og avsluttes med at Lord Ganesha bæres rundt inne i templet.' },
+  { day:'19', mon:'SEP', wd:'Lørdag', title:'1. Puraddathi Sani', up:'',
+    details:'Sesamfrø brennes med sesamolje av dem som er under påvirkning av planeten Saturns herskende guddom.' },
+  { day:'25', mon:'SEP', wd:'Fredag', title:'Nadesar Abishekam', up:'kr. 600 / 750',
+    details:'Sangalpam kl. 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00.' },
+  { day:'26', mon:'SEP', wd:'Lørdag', title:'2. Puraddathi Sani', up:'',
+    details:'Sesamfrø brennes med sesamolje av dem som er under påvirkning av planeten Saturns herskende guddom.' },
+  { day:'28', mon:'SEP', wd:'Mandag', title:'Santhana Gobalar Thinam', up:'kr. 1000',
+    details:'Sangalpam kl. 09.45, etterfulgt av abishekam. Pujaen starter kl. 12.00.' },
+  { day:'29', mon:'SEP', wd:'Tirsdag', title:'Sankadahara Sathurthi', up:'kr. 600 / 750',
+    details:'Sangalpam kl. 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00 og avsluttes med at Lord Ganesha bæres rundt inne i templet.' },
+  { day:'30', mon:'SEP', wd:'Onsdag', title:'Karthikai', up:'kr. 600 / 750',
+    details:'Sangalpam kl. 17.45, etterfulgt av abishekam. Pujaen starter kl. 19.00 og avsluttes med at Lord Muruga bæres rundt inne i templet.' }
 ];
 (function(){
   var el = document.getElementById('event-list-full'); if(!el) return;
